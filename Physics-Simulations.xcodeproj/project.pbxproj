@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BA08A6F82D833D6800E8F413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA08A6DF2D833D6400E8F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA08A6E62D833D6400E8F413;
+			remoteInfo = PhysicsSimulations;
+		};
+		BA08A7022D833D6800E8F413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA08A6DF2D833D6400E8F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA08A6E62D833D6400E8F413;
+			remoteInfo = PhysicsSimulations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA08A6E72D833D6400E8F413 /* Physics-Simulations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Physics-Simulations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA08A6F72D833D6800E8F413 /* Physics-SimulationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Physics-SimulationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA08A7012D833D6800E8F413 /* Physics-SimulationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Physics-SimulationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BA08A6E92D833D6400E8F413 /* Physics-Simulations */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Physics-Simulations";
+			sourceTree = "<group>";
+		};
+		BA08A6FA2D833D6800E8F413 /* Physics-SimulationsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Physics-SimulationsTests";
+			sourceTree = "<group>";
+		};
+		BA08A7042D833D6800E8F413 /* Physics-SimulationsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Physics-SimulationsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA08A6E42D833D6400E8F413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08A6F42D833D6800E8F413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08A6FE2D833D6800E8F413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA08A6DE2D833D6400E8F413 = {
+			isa = PBXGroup;
+			children = (
+				BA08A6E92D833D6400E8F413 /* Physics-Simulations */,
+				BA08A6FA2D833D6800E8F413 /* Physics-SimulationsTests */,
+				BA08A7042D833D6800E8F413 /* Physics-SimulationsUITests */,
+				BA08A6E82D833D6400E8F413 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA08A6E82D833D6400E8F413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA08A6E72D833D6400E8F413 /* Physics-Simulations.app */,
+				BA08A6F72D833D6800E8F413 /* Physics-SimulationsTests.xctest */,
+				BA08A7012D833D6800E8F413 /* Physics-SimulationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA08A6E62D833D6400E8F413 /* Physics-Simulations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA08A70B2D833D6800E8F413 /* Build configuration list for PBXNativeTarget "Physics-Simulations" */;
+			buildPhases = (
+				BA08A6E32D833D6400E8F413 /* Sources */,
+				BA08A6E42D833D6400E8F413 /* Frameworks */,
+				BA08A6E52D833D6400E8F413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BA08A6E92D833D6400E8F413 /* Physics-Simulations */,
+			);
+			name = "Physics-Simulations";
+			packageProductDependencies = (
+			);
+			productName = PhysicsSimulations;
+			productReference = BA08A6E72D833D6400E8F413 /* Physics-Simulations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA08A6F62D833D6800E8F413 /* Physics-SimulationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA08A70E2D833D6800E8F413 /* Build configuration list for PBXNativeTarget "Physics-SimulationsTests" */;
+			buildPhases = (
+				BA08A6F32D833D6800E8F413 /* Sources */,
+				BA08A6F42D833D6800E8F413 /* Frameworks */,
+				BA08A6F52D833D6800E8F413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA08A6F92D833D6800E8F413 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BA08A6FA2D833D6800E8F413 /* Physics-SimulationsTests */,
+			);
+			name = "Physics-SimulationsTests";
+			packageProductDependencies = (
+			);
+			productName = PhysicsSimulationsTests;
+			productReference = BA08A6F72D833D6800E8F413 /* Physics-SimulationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA08A7002D833D6800E8F413 /* Physics-SimulationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA08A7112D833D6800E8F413 /* Build configuration list for PBXNativeTarget "Physics-SimulationsUITests" */;
+			buildPhases = (
+				BA08A6FD2D833D6800E8F413 /* Sources */,
+				BA08A6FE2D833D6800E8F413 /* Frameworks */,
+				BA08A6FF2D833D6800E8F413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA08A7032D833D6800E8F413 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BA08A7042D833D6800E8F413 /* Physics-SimulationsUITests */,
+			);
+			name = "Physics-SimulationsUITests";
+			packageProductDependencies = (
+			);
+			productName = PhysicsSimulationsUITests;
+			productReference = BA08A7012D833D6800E8F413 /* Physics-SimulationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA08A6DF2D833D6400E8F413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BA08A6E62D833D6400E8F413 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BA08A6F62D833D6800E8F413 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BA08A6E62D833D6400E8F413;
+					};
+					BA08A7002D833D6800E8F413 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BA08A6E62D833D6400E8F413;
+					};
+				};
+			};
+			buildConfigurationList = BA08A6E22D833D6400E8F413 /* Build configuration list for PBXProject "Physics-Simulations" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA08A6DE2D833D6400E8F413;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BA08A6E82D833D6400E8F413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA08A6E62D833D6400E8F413 /* Physics-Simulations */,
+				BA08A6F62D833D6800E8F413 /* Physics-SimulationsTests */,
+				BA08A7002D833D6800E8F413 /* Physics-SimulationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA08A6E52D833D6400E8F413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08A6F52D833D6800E8F413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08A6FF2D833D6800E8F413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA08A6E32D833D6400E8F413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08A6F32D833D6800E8F413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08A6FD2D833D6800E8F413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA08A6F92D833D6800E8F413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA08A6E62D833D6400E8F413 /* Physics-Simulations */;
+			targetProxy = BA08A6F82D833D6800E8F413 /* PBXContainerItemProxy */;
+		};
+		BA08A7032D833D6800E8F413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA08A6E62D833D6400E8F413 /* Physics-Simulations */;
+			targetProxy = BA08A7022D833D6800E8F413 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA08A7092D833D6800E8F413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA08A70A2D833D6800E8F413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA08A70C2D833D6800E8F413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Physics-Simulations/Preview Content\"";
+				DEVELOPMENT_TEAM = CT2P7VWHVS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kelreid.Physics-Simulations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA08A70D2D833D6800E8F413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Physics-Simulations/Preview Content\"";
+				DEVELOPMENT_TEAM = CT2P7VWHVS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kelreid.Physics-Simulations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA08A70F2D833D6800E8F413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT2P7VWHVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.PhysicsSimulationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physics-Simulations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Physics-Simulations";
+			};
+			name = Debug;
+		};
+		BA08A7102D833D6800E8F413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT2P7VWHVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.PhysicsSimulationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physics-Simulations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Physics-Simulations";
+			};
+			name = Release;
+		};
+		BA08A7122D833D6800E8F413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT2P7VWHVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.PhysicsSimulationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhysicsSimulations;
+			};
+			name = Debug;
+		};
+		BA08A7132D833D6800E8F413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT2P7VWHVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.PhysicsSimulationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhysicsSimulations;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA08A6E22D833D6400E8F413 /* Build configuration list for PBXProject "Physics-Simulations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA08A7092D833D6800E8F413 /* Debug */,
+				BA08A70A2D833D6800E8F413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA08A70B2D833D6800E8F413 /* Build configuration list for PBXNativeTarget "Physics-Simulations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA08A70C2D833D6800E8F413 /* Debug */,
+				BA08A70D2D833D6800E8F413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA08A70E2D833D6800E8F413 /* Build configuration list for PBXNativeTarget "Physics-SimulationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA08A70F2D833D6800E8F413 /* Debug */,
+				BA08A7102D833D6800E8F413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA08A7112D833D6800E8F413 /* Build configuration list for PBXNativeTarget "Physics-SimulationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA08A7122D833D6800E8F413 /* Debug */,
+				BA08A7132D833D6800E8F413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA08A6DF2D833D6400E8F413 /* Project object */;
+}
