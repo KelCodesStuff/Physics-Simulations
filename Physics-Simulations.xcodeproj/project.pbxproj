@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BAEDE5EF2D95A7AB0096CB8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAEDE5D02D95A7A70096CB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAEDE5D72D95A7A70096CB8E;
+			remoteInfo = "Physics-Simulations";
+		};
+		BAEDE5F92D95A7AB0096CB8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAEDE5D02D95A7A70096CB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAEDE5D72D95A7A70096CB8E;
+			remoteInfo = "Physics-Simulations";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAEDE5D82D95A7A70096CB8E /* Physics-Simulations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Physics-Simulations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEDE5EE2D95A7AB0096CB8E /* Physics-SimulationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Physics-SimulationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEDE5F82D95A7AB0096CB8E /* Physics-SimulationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Physics-SimulationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEDE6902D95D47B0096CB8E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BAEDE5DA2D95A7A70096CB8E /* Physics-Simulations */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Physics-Simulations";
+			sourceTree = "<group>";
+		};
+		BAEDE5F12D95A7AB0096CB8E /* Physics-SimulationsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Physics-SimulationsTests";
+			sourceTree = "<group>";
+		};
+		BAEDE5FB2D95A7AB0096CB8E /* Physics-SimulationsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Physics-SimulationsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAEDE5D52D95A7A70096CB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEDE5EB2D95A7AB0096CB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEDE5F52D95A7AB0096CB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAEDE5CF2D95A7A70096CB8E = {
+			isa = PBXGroup;
+			children = (
+				BAEDE6902D95D47B0096CB8E /* README.md */,
+				BAEDE5DA2D95A7A70096CB8E /* Physics-Simulations */,
+				BAEDE5F12D95A7AB0096CB8E /* Physics-SimulationsTests */,
+				BAEDE5FB2D95A7AB0096CB8E /* Physics-SimulationsUITests */,
+				BAEDE5D92D95A7A70096CB8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAEDE5D92D95A7A70096CB8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAEDE5D82D95A7A70096CB8E /* Physics-Simulations.app */,
+				BAEDE5EE2D95A7AB0096CB8E /* Physics-SimulationsTests.xctest */,
+				BAEDE5F82D95A7AB0096CB8E /* Physics-SimulationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAEDE5D72D95A7A70096CB8E /* Physics-Simulations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEDE6012D95A7AB0096CB8E /* Build configuration list for PBXNativeTarget "Physics-Simulations" */;
+			buildPhases = (
+				BAEDE5D42D95A7A70096CB8E /* Sources */,
+				BAEDE5D52D95A7A70096CB8E /* Frameworks */,
+				BAEDE5D62D95A7A70096CB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BAEDE5DA2D95A7A70096CB8E /* Physics-Simulations */,
+			);
+			name = "Physics-Simulations";
+			packageProductDependencies = (
+			);
+			productName = "Physics-Simulations";
+			productReference = BAEDE5D82D95A7A70096CB8E /* Physics-Simulations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAEDE5ED2D95A7AB0096CB8E /* Physics-SimulationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEDE6062D95A7AB0096CB8E /* Build configuration list for PBXNativeTarget "Physics-SimulationsTests" */;
+			buildPhases = (
+				BAEDE5EA2D95A7AB0096CB8E /* Sources */,
+				BAEDE5EB2D95A7AB0096CB8E /* Frameworks */,
+				BAEDE5EC2D95A7AB0096CB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAEDE5F02D95A7AB0096CB8E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BAEDE5F12D95A7AB0096CB8E /* Physics-SimulationsTests */,
+			);
+			name = "Physics-SimulationsTests";
+			packageProductDependencies = (
+			);
+			productName = "Physics-SimulationsTests";
+			productReference = BAEDE5EE2D95A7AB0096CB8E /* Physics-SimulationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAEDE5F72D95A7AB0096CB8E /* Physics-SimulationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEDE6092D95A7AB0096CB8E /* Build configuration list for PBXNativeTarget "Physics-SimulationsUITests" */;
+			buildPhases = (
+				BAEDE5F42D95A7AB0096CB8E /* Sources */,
+				BAEDE5F52D95A7AB0096CB8E /* Frameworks */,
+				BAEDE5F62D95A7AB0096CB8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAEDE5FA2D95A7AB0096CB8E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BAEDE5FB2D95A7AB0096CB8E /* Physics-SimulationsUITests */,
+			);
+			name = "Physics-SimulationsUITests";
+			packageProductDependencies = (
+			);
+			productName = "Physics-SimulationsUITests";
+			productReference = BAEDE5F82D95A7AB0096CB8E /* Physics-SimulationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAEDE5D02D95A7A70096CB8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BAEDE5D72D95A7A70096CB8E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BAEDE5ED2D95A7AB0096CB8E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BAEDE5D72D95A7A70096CB8E;
+					};
+					BAEDE5F72D95A7AB0096CB8E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BAEDE5D72D95A7A70096CB8E;
+					};
+				};
+			};
+			buildConfigurationList = BAEDE5D32D95A7A70096CB8E /* Build configuration list for PBXProject "Physics-Simulations" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAEDE5CF2D95A7A70096CB8E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BAEDE5D92D95A7A70096CB8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAEDE5D72D95A7A70096CB8E /* Physics-Simulations */,
+				BAEDE5ED2D95A7AB0096CB8E /* Physics-SimulationsTests */,
+				BAEDE5F72D95A7AB0096CB8E /* Physics-SimulationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAEDE5D62D95A7A70096CB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEDE5EC2D95A7AB0096CB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEDE5F62D95A7AB0096CB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAEDE5D42D95A7A70096CB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEDE5EA2D95A7AB0096CB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEDE5F42D95A7AB0096CB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAEDE5F02D95A7AB0096CB8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAEDE5D72D95A7A70096CB8E /* Physics-Simulations */;
+			targetProxy = BAEDE5EF2D95A7AB0096CB8E /* PBXContainerItemProxy */;
+		};
+		BAEDE5FA2D95A7AB0096CB8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAEDE5D72D95A7A70096CB8E /* Physics-Simulations */;
+			targetProxy = BAEDE5F92D95A7AB0096CB8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BAEDE6022D95A7AB0096CB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT2P7VWHVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Physics-Simulations/Config/Physics-Simulations-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Physics Simulations";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.simulation-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneVR.Physics-Simulations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAEDE6032D95A7AB0096CB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT2P7VWHVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Physics-Simulations/Config/Physics-Simulations-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Physics Simulations";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.simulation-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneVR.Physics-Simulations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAEDE6042D95A7AB0096CB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAEDE6052D95A7AB0096CB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAEDE6072D95A7AB0096CB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT2P7VWHVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneVR.Physics-SimulationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physics-Simulations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Physics-Simulations";
+			};
+			name = Debug;
+		};
+		BAEDE6082D95A7AB0096CB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT2P7VWHVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneVR.Physics-SimulationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physics-Simulations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Physics-Simulations";
+			};
+			name = Release;
+		};
+		BAEDE60A2D95A7AB0096CB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT2P7VWHVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneVR.Physics-SimulationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Physics-Simulations";
+			};
+			name = Debug;
+		};
+		BAEDE60B2D95A7AB0096CB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT2P7VWHVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneVR.Physics-SimulationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Physics-Simulations";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAEDE5D32D95A7A70096CB8E /* Build configuration list for PBXProject "Physics-Simulations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEDE6042D95A7AB0096CB8E /* Debug */,
+				BAEDE6052D95A7AB0096CB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEDE6012D95A7AB0096CB8E /* Build configuration list for PBXNativeTarget "Physics-Simulations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEDE6022D95A7AB0096CB8E /* Debug */,
+				BAEDE6032D95A7AB0096CB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEDE6062D95A7AB0096CB8E /* Build configuration list for PBXNativeTarget "Physics-SimulationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEDE6072D95A7AB0096CB8E /* Debug */,
+				BAEDE6082D95A7AB0096CB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEDE6092D95A7AB0096CB8E /* Build configuration list for PBXNativeTarget "Physics-SimulationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEDE60A2D95A7AB0096CB8E /* Debug */,
+				BAEDE60B2D95A7AB0096CB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAEDE5D02D95A7A70096CB8E /* Project object */;
+}
