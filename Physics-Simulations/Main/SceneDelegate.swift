@@ -1,3 +1,10 @@
+//
+//  SceneDelegate.swift
+//  Physics-Simulations
+//
+//  Created by Kelvin Reid on 3/27/25.
+//
+
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
