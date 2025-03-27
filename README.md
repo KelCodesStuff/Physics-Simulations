@@ -49,14 +49,6 @@ An iOS app demonstrating physics simulations using Swift, SceneKit and UIKit. Th
 2. Open `Physics-Simulations.xcodeproj` in Xcode
 3. Build and run the project
 
-## Usage
-1. Launch the app
-2. Use the tab bar to switch between simulations:
-   - "Spheres" tab: Experiment with different mass spheres and wind effects
-   - "Fluid" tab: Observe particle-based fluid simulation
-3. Use the restart button to reset each simulation
-4. In the sphere simulation, toggle wind effects using the wind switch
-
 ## Future Enhancements
 - Add more physics forces (magnetism, custom forces)
 - Implement object creation through user interaction
