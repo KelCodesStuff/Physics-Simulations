@@ -12,6 +12,19 @@ An iOS app demonstrating physics simulations using Swift, SceneKit and UIKit. Th
   - Red Sphere: Light (1.0 mass), High bounce (0.9)
   - Blue Sphere: Medium (2.0 mass), Medium bounce (0.7)
   - Green Sphere: Heavy (5.0 mass), Low bounce (0.3)
+- **Dynamic Labels**: Mass labels that automatically face the camera
+
+### Wind Particle System
+- **Visual Wind Effect**: Particle system showing wind direction and intensity
+- **Synchronized Physics**: Wind particles appear before force application
+- **Customizable Properties**:
+  - Particle color and transparency
+  - Birth rate (500 particles when active)
+  - Particle velocity (12.0 units)
+  - Spread angle (15 degrees)
+- **Smooth Transitions**: 
+  - Particles fade in when wind is enabled
+  - Clean shutdown when wind is disabled or scene is reset
 
 ### Fluid Simulation
 - **Particle-based Fluid**: 200 particles simulating fluid behavior
@@ -21,28 +34,28 @@ An iOS app demonstrating physics simulations using Swift, SceneKit and UIKit. Th
   - Particle collision and interaction
 - **Real-time Physics**: Accurate gravity and collision detection
 
+### Scene Features
+- **Lighting System**:
+  - Ambient light for overall scene illumination
+  - Directional light for shadows and depth
+- **Ground Plane**: Static physics body with collision detection
+
 ## Technical Details
 
 ### Physics Properties
-
-#### Sphere Simulation
-- Gravity: -9.8 m/s² in Y direction
-- Wind Force: 2 units in positive X direction
-- Ground: Static physics body with gray material
-- Spheres: Dynamic physics bodies with varying properties
-
-#### Fluid Simulation
-- Particle Count: 200 water particles
-- Container: Glass-like material with transparency
-- Particle Physics: Optimized for fluid behavior
-  - Zero restitution (no bounce)
-  - Controlled friction and damping
-  - Particle-to-particle interaction
+- **Gravity**: -9.8 m/s² in Y direction
+- **Wind Force**: 5 units in positive X direction
+- **Ground**: Static physics body with gray material
+- **Spheres**: Dynamic physics bodies with varying properties
+  - Configurable mass
+  - Adjustable restitution (bounce)
+  - Friction coefficient: 0.5
 
 ## Requirements
 - iOS 13.0+
 - Xcode 12.0+
 - Swift 5.0+
+- SceneKit framework
 
 ## Installation
 1. Clone the repository
@@ -52,10 +65,10 @@ An iOS app demonstrating physics simulations using Swift, SceneKit and UIKit. Th
 ## Future Enhancements
 - Add more physics forces (magnetism, custom forces)
 - Implement object creation through user interaction
-- Add more fluid simulation parameters
-- Include different container shapes
-- Add temperature effects on fluid behavior
-- Implement fluid viscosity controls
+- Add particle system customization through UI
+- Include different wind patterns
+- Add temperature effects on particle behavior
+- Implement wind strength controls
 
 ## License
 This project is available under the MIT License. See the LICENSE file for more info. 
