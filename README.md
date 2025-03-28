@@ -55,7 +55,6 @@ An iOS app demonstrating physics simulations using Swift, SceneKit and UIKit. Th
 - iOS 13.0+
 - Xcode 12.0+
 - Swift 5.0+
-- SceneKit framework
 
 ## Installation
 1. Clone the repository
