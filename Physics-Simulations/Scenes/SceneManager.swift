@@ -17,10 +17,13 @@ class SceneManager: NSObject {
     let scene: SCNScene
     
     /// The force vector applied when wind is enabled (2 units in positive X direction)
-    private var windForce: SCNVector3 = SCNVector3(x: 2, y: 0, z: 0)
+    private var windForce: SCNVector3 = SCNVector3(x: 5, y: 0, z: 0)
     
     /// Tracks whether wind force is currently being applied
     private(set) var isWindEnabled = false
+    
+    /// Wind particle manager
+    private var windParticleManager: WindParticleManager?
     
     // MARK: - Initialization
     
@@ -103,11 +106,18 @@ class SceneManager: NSObject {
         
         // Add initial objects
         addObjects()
+        
+        // Initialize wind particle manager
+        windParticleManager = WindParticleManager(scene: scene)
     }
     
     // MARK: - Object Management
     
     func addObjects() {
+        // Ensure wind is disabled when restarting
+        isWindEnabled = false
+        windParticleManager?.stopWindParticles()
+        
         // Remove all existing dynamic objects
         scene.rootNode.childNodes.forEach { node in
             if node.physicsBody?.type == .dynamic {
@@ -168,12 +178,30 @@ class SceneManager: NSObject {
         isWindEnabled.toggle()
         
         if isWindEnabled {
-            // Apply wind force to all dynamic objects
-            scene.rootNode.childNodes.forEach { node in
-                if let physicsBody = node.physicsBody, physicsBody.type == .dynamic {
-                    physicsBody.applyForce(windForce, asImpulse: false)
+            // Enable wind particles first
+            windParticleManager?.startWindParticles()
+            print("Wind enabled")
+            
+            // Delay force application by 0.1 seconds to allow particles to become visible
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                // Apply wind force to all dynamic objects
+                self.scene.rootNode.childNodes.forEach { node in
+                    if let physicsBody = node.physicsBody, physicsBody.type == .dynamic {
+                        physicsBody.applyForce(self.windForce, asImpulse: false)
+                    }
                 }
             }
+        } else {
+            // Remove wind force from objects
+            scene.rootNode.childNodes.forEach { node in
+                if let physicsBody = node.physicsBody, physicsBody.type == .dynamic {
+                    physicsBody.clearAllForces()
+                }
+            }
+            
+            // Disable wind particles
+            windParticleManager?.stopWindParticles()
+            print("Wind disabled")
         }
     }
 }
