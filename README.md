@@ -51,10 +51,8 @@ An iOS app demonstrating physics simulations using Swift, SceneKit and UIKit. Th
   - Adjustable restitution (bounce)
   - Friction coefficient: 0.5
 
-## Requirements
-- iOS 13.0+
-- Xcode 12.0+
-- Swift 5.0+
+## Demo
+[![Physics Simulations Demo](https://img.youtube.com/vi/h-IqKmwwVVY/0.jpg)](https://youtube.com/shorts/h-IqKmwwVVY)
 
 ## Installation
 1. Clone the repository
